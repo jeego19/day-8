@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.logo i{
+    padding-top: 5px;
+    font-size: 1.8em;
+    color: blue;
+}
+.logo h1{
+    color: blue;
+}
+
+.meneo{
+    display: flex;
+    gap: 40px;
+    padding-top: 8px;
+    list-style: none;
+    font-size: 1.8em;
+}
+.Loging{
+    background-color: transparent;
+    border: 2px solid blue;
+    padding: 6px 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.Register{
+    background-color: blue;
+    padding: 6px 15px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin-left: 15px;
+
+}
+
+.home:hover{
+    background-color: blue;
+    color: red     ;
+}
